@@ -1,26 +1,31 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <main>
-    <Section>
-        <div>
-            <div class="logo">
-                <img src="../../../IMG/logo.jpg" alt="Imagem de logo">
-            <h1>login</h1>
+            <div class="container">
+                <div class="buttonForm">
+                    <div class="btnColor"></div>
+                    <button id="btnSingin">Login</button>
+                    <button id="btnSingup">Cadastro</button>
+                </div>
+                <form id="singin">
+                    <input type="email" nome="email" placeholder="Digite seu E-mail" required>
+                    <i class="fas fa-envelope iEmail"></i>
+                    <input type="password" nome="senha" placeholder="Digite sua Senha"required>
+                    <i class="fas fa-lock iPassword"></i>
+                    <div class="divCheck">
+                        <input type="checkbox">
+                        <span>Lembrar a Senha</span>
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+                <form id="singin">
+                    <input type="email" nome="email" placeholder="Digite seu E-mail" required>
+                    <i class="fas fa-envelope iEmail"></i>
+                    <input type="password" nome="senha" placeholder="Digite sua Senha"required>
+                    <i class="fas fa-lock iPassword"></i>
+                    <input type="password" nome="senha-conf" placeholder="Confirme sua Senha"required>
+                    <i class="fas fa-lock iPassword"></i>
+                    <div class="divCheck">
+                        <input type="checkbox">
+                        <span>Termos</span>
+                    </div>
+                    <button type="submit">Criar Cadastro</button>
+                </form>
             </div>
-            <form>
-                <input type="email" nome="email" placeholder="Digite seu E-mail">
-                <input type="password" nome="email" placeholder="Digite seu E-mail">
-                <input type="submit" nome="email" placeholder="Digite seu E-mail">
-
-            </form>
-        </div>
-    </Section>
-</main>
-</body>
-</html>
