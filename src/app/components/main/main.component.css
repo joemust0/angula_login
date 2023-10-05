@@ -9,8 +9,8 @@ main{
   align-items: center;
   align-content: center;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(15, 15, 15);
-  display: block;
+  background: linear-gradient(to right, rgb(200, 197, 224),rgb(102, 168, 212));
+  color: lightblue;
   }
 section{
   background-color: skyblue; ;
