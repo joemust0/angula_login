@@ -1,4 +1,4 @@
-  body{
+main{
   padding: 0;
   margin: 0;
   box-sizing: 0;
@@ -9,6 +9,8 @@
   align-items: center;
   align-content: center;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(15, 15, 15);
+  display: block;
   }
 section{
   background-color: skyblue; ;
@@ -21,6 +23,7 @@ section{
   position: relative;
   justify-content: center;
   display: flex;
+  background-color: rgb(14, 13, 13);
   }
   h1 {
   font-size-adjust: none;
