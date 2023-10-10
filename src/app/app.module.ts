@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './components/login/login.component';
 import { UseridentificationComponent } from './components/useridentification/useridentification.component';
+import { CadUsuariosComponent } from './components/cad-usuarios/cad-usuarios.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { UseridentificationComponent } from './components/useridentification/use
     HeaderComponent,
     FooterComponent,
     LoginComponent,
-    UseridentificationComponent
+    UseridentificationComponent,
+    CadUsuariosComponent
   ],
   imports: [
     BrowserModule,
