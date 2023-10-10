@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&family=Kaushan+Script&display=swap');
 
 .voltar{
-    background: linear-gradient(to bottom, #660fc8, navy);
-    color: white;
-    border-radius: 30px;
-    width: 30%;
-    border: none;
-    outline: none;
-    padding: 8px 0 8px 30px;
-    font-size: 20px;
-    margin-top: 10px;
-    cursor: pointer;
-    font-family: 'Iceland', cursive;
+  background: radial-gradient( #660fc8, navy);
+  color: white;
+  border-radius: 30px;
+  width: 100px;
+  border: none;
+  outline: none;
+  padding: 8px 8px 8px 8px;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 120px;
+  cursor: pointer;
   }
